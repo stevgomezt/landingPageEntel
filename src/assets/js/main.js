@@ -261,7 +261,7 @@ var modalDialogAnalisisNo = document.querySelector('.modal-dialog');
 var galleryImgAnalisisNo = document.getElementById('galleryImgAnalisisNo');
 var imageContainerAnalisisNo = document.getElementById('imageContainerAnalisisNo');
 var imagesAnalisisNo = [
-  "/assets/img/slides/28.png"
+  "/src/assets/img/slides/28.png"
 ];
 var currentIndexAnalisisNo = 0;
 
@@ -296,7 +296,7 @@ var modalDialogAnaliticaPre = document.querySelector('.modal-dialog');
 var galleryImgAnaliticaPre = document.getElementById('galleryImgAnaliticaPre');
 var imageContainerAnaliticaPre = document.getElementById('imageContainerAnaliticaPre');
 var imagesAnaliticaPre = [
-  "/assets/img/slides/32.png"
+  "/src/assets/img/slides/32.png"
 ];
 var currentIndex = 0;
 
@@ -331,10 +331,10 @@ var modalDialog = document.querySelector('.modal-dialog');
 var galleryImgBI = document.getElementById('galleryImgBI');
 var imageContainerBI = document.getElementById('imageContainerBI');
 var imagesBI = [
-  "/assets/img/slides/1.png",
-  "/assets/img/slides/2.png",
-  "/assets/img/slides/3.png",
-  "/assets/img/slides/4.png"
+  "/src/assets/img/slides/1.png",
+  "/src/assets/img/slides/2.png",
+  "/src/assets/img/slides/3.png",
+  "/src/assets/img/slides/4.png"
 ];
 var currentIndex = 0;
 
@@ -382,9 +382,9 @@ var modalDialogIA = modalIA.querySelector('.modal-dialog');
 var galleryImgIA = document.getElementById('galleryImgIA');
 var imageContainerIA = document.getElementById('imageContainerIA');
 var imagesIA = [
-  "/assets/img/slides/33.png",
-  "/assets/img/slides/34.png",
-  "/assets/img/slides/35.png"
+  "/src/assets/img/slides/33.png",
+  "/src/assets/img/slides/34.png",
+  "/src/assets/img/slides/35.png"
 ];
 var currentIndexIA = 0;
 
@@ -459,9 +459,9 @@ var modalDialogPerfilC = modalPerfilC.querySelector('.modal-dialog');
 var galleryImgPerfilC = document.getElementById('galleryImgPerfilC');
 var imageContainerPerfilC = document.getElementById('imageContainerPerfilC');
 var imagesPerfilC = [
-  "/assets/img/slides/20.png",
-  "/assets/img/slides/21.png",
-  "/assets/img/slides/22.png"
+  "/src/assets/img/slides/20.png",
+  "/src/assets/img/slides/21.png",
+  "/src/assets/img/slides/22.png"
 ];
 var currentIndexPerfilC = 0;
 
@@ -509,9 +509,9 @@ var modalDialogSmartC = modalSmartC.querySelector('.modal-dialog');
 var galleryImgSmartC = document.getElementById('galleryImgSmartC');
 var imageContainerSmartC = document.getElementById('imageContainerSmartC');
 var imagesSmartC = [
-  "/assets/img/slides/29.png",
-  "/assets/img/slides/30.png",
-  "/assets/img/slides/31.png"
+  "/src/assets/img/slides/29.png",
+  "/src/assets/img/slides/30.png",
+  "/src/assets/img/slides/31.png"
 ];
 var currentIndexSmartC = 0;
 
