@@ -3,8 +3,8 @@ var modalDialog = document.querySelector('.modal-dialog');
 var galleryImgBI = document.getElementById('galleryImgBI');
 var imageContainerBI = document.getElementById('imageContainerBI');
 var imagesBI = [
-  "/assets/img/slides/1.png",
-  "/assets/img/slides/2.png",
+  // "/assets/img/slides/1.png",
+  // "/assets/img/slides/2.png",
   "/assets/img/slides/3.png",
   "/assets/img/slides/4.png"
 ];
