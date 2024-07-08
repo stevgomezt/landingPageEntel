@@ -690,6 +690,7 @@ section {
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     z-index: 1;
+    height: 100%;
 }
 
 .services .icon-box::before {
