@@ -1749,3 +1749,48 @@ section {
     display: block; /* Evita espacios en blanco adicionales debajo de la imagen */
     margin: auto; /* Centra la imagen dentro de su contenedor */
 }
+
+.custom-box {
+    border: 1px solid #e8ecef;
+    border-radius: 25px; /* Cambiado a 15px */
+    margin: 5px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    background-color: #fefefe;
+}
+
+.custom-box:hover {
+    background-color: #e0f7fa;
+}
+
+.custom-img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px; /* Para asegurarse de que la imagen siga el borde redondeado */
+}
+
+.custom-img-premios {
+    width: 35%;
+    height: auto;
+    border-radius: 15px; /* Para asegurarse de que la imagen siga el borde redondeado */
+}
+
+.banner-container {
+    width: 80%; /* Ancho del contenedor del banner */
+    height: 300px; /* Altura deseada del banner */
+    overflow: hidden;
+    position: relative;
+    margin: auto; /* Centra el contenedor horizontalmente */
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%; /* Ajusta la imagen al 100% del alto del contenedor */
+    object-fit: cover; /* Cubre el contenedor manteniendo la proporción */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+}
+
+.img-logo {
+    max-width: 150px; /* Ajusta el tamaño máximo del logo según sea necesario */
+    z-index: 1; /* Asegura que esté por encima de la imagen de fondo */
+}

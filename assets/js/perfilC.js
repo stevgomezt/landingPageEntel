@@ -4,6 +4,7 @@ var modalDialogPerfilC = modalPerfilC.querySelector('.modal-dialog');
 var galleryImgPerfilC = document.getElementById('galleryImgPerfilC');
 var imageContainerPerfilC = document.getElementById('imageContainerPerfilC');
 var imagesPerfilC = [
+  "/assets/img/slides/perfil.jpg",
   "/assets/img/slides/20.png",
   "/assets/img/slides/21.png",
   "/assets/img/slides/22.png"
