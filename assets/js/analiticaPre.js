@@ -3,7 +3,9 @@ var modalDialogAnaliticaPre = document.querySelector('.modal-dialog');
 var galleryImgAnaliticaPre = document.getElementById('galleryImgAnaliticaPre');
 var imageContainerAnaliticaPre = document.getElementById('imageContainerAnaliticaPre');
 var imagesAnaliticaPre = [
-  "/assets/img/slides/32.png"
+  "/assets/img/slides/32-0.jpg",
+  "/assets/img/slides/32.png",
+  "/assets/img/slides/32-1.jpg",
 ];
 var currentIndex = 0;
 
@@ -28,17 +30,17 @@ function adjustModalSizeAnaliticaPre() {
   modalDialog.style.maxHeight = maxHeight + 'px';
 }
 
-// document.getElementById("prevBtnAnaliticaPre").onclick = function () {
-//   currentIndex = (currentIndex > 0) ? currentIndex - 1 : imagesAnaliticaPre.length - 1;
-//   galleryImgAnaliticaPre.src = imagesAnaliticaPre[currentIndex];
-//   adjustModalSizeAnaliticaPre();
-// }
+document.getElementById("prevBtnAnaliticaPre").onclick = function () {
+  currentIndex = (currentIndex > 0) ? currentIndex - 1 : imagesAnaliticaPre.length - 1;
+  galleryImgAnaliticaPre.src = imagesAnaliticaPre[currentIndex];
+  adjustModalSizeAnaliticaPre();
+}
 
-// document.getElementById("nextBtnAnaliticaPre").onclick = function () {
-//   currentIndex = (currentIndex < imagesAnaliticaPre.length - 1) ? currentIndex + 1 : 0;
-//   galleryImgAnaliticaPre.src = imagesAnaliticaPre[currentIndex];
-//   adjustModalSizeAnaliticaPre();
-// }
+document.getElementById("nextBtnAnaliticaPre").onclick = function () {
+  currentIndex = (currentIndex < imagesAnaliticaPre.length - 1) ? currentIndex + 1 : 0;
+  galleryImgAnaliticaPre.src = imagesAnaliticaPre[currentIndex];
+  adjustModalSizeAnaliticaPre();
+}
 
 // Ajustar el tamaño del modal cuando se muestra
 $('#myModalAnaliticaPre').on('shown.bs.modal', function () {
