@@ -4,9 +4,13 @@ var modalDialogSmartC = modalSmartC.querySelector('.modal-dialog');
 var galleryImgSmartC = document.getElementById('galleryImgSmartC');
 var imageContainerSmartC = document.getElementById('imageContainerSmartC');
 var imagesSmartC = [
-  "/assets/img/slides/29.png",
-  "/assets/img/slides/30.png",
-  "/assets/img/slides/31.png"
+  // "/assets/img/slides/29.png",
+  // "/assets/img/slides/30.png",
+  // "/assets/img/slides/31.png"
+  "/assets/img/slides/ma-1.jpg",
+  "/assets/img/slides/ma-2.jpg",
+  "/assets/img/slides/ma-3.jpg",
+  "/assets/img/slides/ma-4.jpg",
 ];
 var currentIndexSmartC = 0;
 

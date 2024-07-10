@@ -3,7 +3,10 @@ var modalDialogAnalisisNo = document.querySelector('.modal-dialog');
 var galleryImgAnalisisNo = document.getElementById('galleryImgAnalisisNo');
 var imageContainerAnalisisNo = document.getElementById('imageContainerAnalisisNo');
 var imagesAnalisisNo = [
-  "/assets/img/slides/28.png"
+  "/assets/img/slides/28.png",
+  "/assets/img/slides/29.png",
+  "/assets/img/slides/30.png",
+  "/assets/img/slides/31.png"
 ];
 var currentIndexAnalisisNo = 0;
 
@@ -28,17 +31,17 @@ function adjustModalSizeAnalisisNo() {
   modalDialog.style.maxHeight = maxHeight + 'px';
 }
 
-// document.getElementById("prevBtnAnalisisNo").onclick = function () {
-//   currentIndexAnalisisNo = (currentIndexAnalisisNo > 0) ? currentIndexAnalisisNo - 1 : imagesAnalisisNo.length - 1;
-//   galleryImgAnalisisNo.src = imagesAnalisisNo[currentIndexAnalisisNo];
-//   adjustModalSizeAnalisisNo();
-// }
+document.getElementById("prevBtnAnalisisNo").onclick = function () {
+  currentIndexAnalisisNo = (currentIndexAnalisisNo > 0) ? currentIndexAnalisisNo - 1 : imagesAnalisisNo.length - 1;
+  galleryImgAnalisisNo.src = imagesAnalisisNo[currentIndexAnalisisNo];
+  adjustModalSizeAnalisisNo();
+}
 
-// document.getElementById("nextBtnAnalisisNo").onclick = function () {
-//   currentIndexAnalisisNo = (currentIndexAnalisisNo < imagesAnalisisNo.length - 1) ? currentIndexAnalisisNo + 1 : 0;
-//   galleryImgAnalisisNo.src = imagesAnalisisNo[currentIndexAnalisisNo];
-//   adjustModalSizeAnalisisNo();
-// }
+document.getElementById("nextBtnAnalisisNo").onclick = function () {
+  currentIndexAnalisisNo = (currentIndexAnalisisNo < imagesAnalisisNo.length - 1) ? currentIndexAnalisisNo + 1 : 0;
+  galleryImgAnalisisNo.src = imagesAnalisisNo[currentIndexAnalisisNo];
+  adjustModalSizeAnalisisNo();
+}
 
 // Ajustar el tamaño del modal cuando se muestra
 $('#myModalAnalisisNo').on('shown.bs.modal', function () {
