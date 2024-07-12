@@ -1,16 +1,12 @@
-// SmartC Modal
 var modalSmartC = document.getElementById('myModalSmartC');
-var modalDialogSmartC = modalSmartC.querySelector('.modal-dialog');
+var modalDialogSmartC = document.querySelector('.modal-dialog');
 var galleryImgSmartC = document.getElementById('galleryImgSmartC');
 var imageContainerSmartC = document.getElementById('imageContainerSmartC');
 var imagesSmartC = [
-  // "/assets/img/slides/29.png",
-  // "/assets/img/slides/30.png",
-  // "/assets/img/slides/31.png"
-  "/assets/img/slides/ma-1.jpg",
-  "/assets/img/slides/ma-2.jpg",
-  "/assets/img/slides/ma-3.jpg",
-  "/assets/img/slides/ma-4.jpg",
+  "/assets/img/slides/28.png",
+  "/assets/img/slides/29.png",
+  "/assets/img/slides/30.png",
+  "/assets/img/slides/31.png"
 ];
 var currentIndexSmartC = 0;
 
@@ -31,8 +27,8 @@ function adjustModalSizeSmartC() {
   // Aplicar el tamaño al contenedor de la imagen y al modal
   imageContainerSmartC.style.maxWidth = maxWidth + 'px';
   imageContainerSmartC.style.maxHeight = maxHeight + 'px';
-  modalDialogSmartC.style.maxWidth = maxWidth + 'px';
-  modalDialogSmartC.style.maxHeight = maxHeight + 'px';
+  SmartC.style.maxWidth = maxWidth + 'px';
+  modalDialog.style.maxHeight = maxHeight + 'px';
 }
 
 document.getElementById("prevBtnSmartC").onclick = function () {
